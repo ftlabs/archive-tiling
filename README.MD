@@ -2,7 +2,7 @@
 
 #### Background info.
 
-We have a sizeable, digital archive of every copy of the FT going back to the 1880's. This archive contains a high-resolution black and white scan of every page of each edition, and an XML file containing text content of that page (generated through OCR). This archive takes up terabytes of storage space and is currently stored in a form that doesn't allow us to easily access or index it's content. This repo contains the experiments, explorations and results of trying to make this archive more accessible.
+We have a sizeable, digital archive of every copy of the FT going back to the 1880's. This archive contains a high-resolution black and white scan of every page of each edition, and an XML file containing text content of that page (generated through OCR). This archive takes up terabytes of storage space and is currently stored in a form that doesn't allow us to easily access, index or expose it's content. This repo contains the experiments, explorations and results of trying to make this archive more accessible.
 
 ## Currently
 
