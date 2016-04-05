@@ -65,7 +65,8 @@ If you have Python 2.7 or greater:
 
 ## Ongoing
 
-Next, we plan to explore the following
+Next, we plan to explore the following:
+
 1. How we might present the whole of the FT archive in one giant tile system (the Enormo-map). 
 2. How we might present the arhives in the same format as the microfilm that it exists in.
 3. How we might make the content of our archives searchable/indexable
