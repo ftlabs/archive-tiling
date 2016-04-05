@@ -12,9 +12,9 @@ Right now, the Archive lives on a networked drive (only accessible from within t
 
 ### Tiling
 
-Generating map tiles from our image assets isn't all too difficult. There a number of open source projects that we can use to generate tiles which can be displayed in a web browser using software like Leaflet.js, OpenLayers or Google maps. Our efforts so far have focussed around the (http://www.gdal.org/)[GDAL] project and the software it makes available. Using the gdal2tiles.py program, we can generate a raster map. A raster map is a map where the geospatial coordinates point to x,y pixel values instead of latitude and longitude coordinates.
+Generating map tiles from our image assets isn't all too difficult. There a number of open source projects that we can use to generate tiles which can be displayed in a web browser using software like Leaflet.js, OpenLayers or Google maps. Our efforts so far have focussed around the [GDAL](http://www.gdal.org/) project and the software it makes available. Using the gdal2tiles.py program, we can generate a raster map. A raster map is a map where the geospatial coordinates point to x,y pixel values instead of latitude and longitude coordinates.
 
-You can download the binaries for GDAL (here)[https://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries]
+You can download the binaries for GDAL [here](https://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries)
 
 Once you've followed the installation instructions and linked the Python files, you should be able to run them from your Terminal without having to include the path.
 
@@ -46,7 +46,7 @@ gdal2tiles-mod.py is a file found in this repo. It does everything that gdal2til
 
 #### tiler.py
 
-tiler.py is a simple Python script which will scrape the digital archives and create a tile map for each indiviudal page. It scrapes the archive using Beautiful Soup and the HTML5Lib parser, which you will need to install in order to run the scraper. Beautiful Soup requires version 2.7 of Python (at least). You can install Beautiful Soup following (these instructions)[https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup] and you can install the HTML5Lib parser by following (these instructions)[https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser]. tiler.py will work through the entirety of the FT archive and generate a map for each one. This has signifcant implications for storage, so do use it wisely and don't run it without keeping an eye on it (or writing the results to a huge hard drive)
+tiler.py is a simple Python script which will scrape the digital archives and create a tile map for each indiviudal page. It scrapes the archive using Beautiful Soup and the HTML5Lib parser, which you will need to install in order to run the scraper. Beautiful Soup requires version 2.7 of Python (at least). You can install Beautiful Soup following [these instructions](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup) and you can install the HTML5Lib parser by following [these instructions](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser). tiler.py will work through the entirety of the FT archive and generate a map for each one. This has signifcant implications for storage, so do use it wisely and don't run it without keeping an eye on it (or writing the results to a huge hard drive)
 
 ##### install tldr;
 
